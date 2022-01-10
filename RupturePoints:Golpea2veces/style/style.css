@@ -1,0 +1,32 @@
+ #horizon>li{display:inline;
+    border:solid 2px violet;
+    padding: 10px 20px;
+    }
+div{ 
+    display:none;
+    width: 200px;}
+    #vertical li{
+        border:solid 2px violet;
+        padding: 10px 20px;
+        }  
+li:hover{ 
+    background-color: gray;
+    cursor:pointer;
+}
+li>a{
+    text-decoration: none;
+    color: black;
+}
+#vertical{
+    
+}
+
+@media screen and (max-width:900px){
+    #horizon{display:none;} 
+    div{
+
+        display:block;
+        float:left;
+    }
+    
+       }
